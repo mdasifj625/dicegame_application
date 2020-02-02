@@ -1,0 +1,56 @@
+.container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  padding: 5% 5% 0 5%;
+
+}
+
+body {
+  background-color: #a8d8ea;
+}
+
+
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #aa96da;
+}
+
+p {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 3px 0 #232931;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  /* font-family: 'Indie Flower', cursive; */
+}
+
+img {
+  width: 50%;
+  margin-top: 8%;
+}
+
+.download-btn {
+  margin: 7%;
+}
+.btn-container{
+  margin-top: 7%;
+}
+footer h3{
+  font-size: 2.5rem;
+}
+footer {
+  font-size: 1rem;
+  font-weight:bold;
+  color: #35495e;
+  text-align: center;
+}
