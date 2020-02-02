@@ -5,12 +5,12 @@ function changeDice() {
   var diceChange2 = ("images/dice" + randomNumber2 + ".svg");
   document.querySelector("img.img1").setAttribute("src", diceChange1);
   document.querySelector("img.img2").setAttribute("src", diceChange2);
-  if (randomNumber1 == randomNumber2) {
-    document.querySelector("h1").textContent = "Draw!";
-  } else if (randomNumber1 > randomNumber2) {
+  if (randomNumber1 > randomNumber2) {
     document.querySelector("h1").textContent = "🚩  Player 1 Won!";
+  } else if (randomNumber1 < randomNumber2) {
+    document.querySelector("h1").textContent ="Player 2 Won!  🚩" ;
   } else {
-    document.querySelector("h1").textContent = "Player 2 Won!  🚩";
+    document.querySelector("h1").textContent = "Draw!!!!";
   }
 }
 
