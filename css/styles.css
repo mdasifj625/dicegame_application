@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #a8d8ea;
+	font-size: 16px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.container {
+	width: 40vw;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title_result {
+	margin: 5% 0;
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 1px #483a65;
+	font-size: 4rem;
+	color: #aa96da;
+}
+
+.dice_container {
+	display: flex;
+}
+
+.dice {
+	text-align: center;
+	display: inline-block;
+}
+
+.dice img {
+	width: 30%;
+}
+
+.dice p {
+	font-family: 'Anton', sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	text-shadow: 2px 1px #232931;
+	color: #fff;
+}
+
+.btn-container {
+	margin-top: 3rem;
+}
+
+.btn {
+	padding: 0.8rem 1.5rem;
+	border: none;
+	outline: none;
+	border-radius: 0.5rem;
+	background-color: #92b750;
+	font-weight: 600;
+}
+.btn:hover {
+	background-color: #87b03f;
+}
